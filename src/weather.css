@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+.custom-body{
+ 
+    background-image: linear-gradient(white, rgb(90, 186, 218));
+    background-image: linear-gradient(to right,(rgb(222, 221, 221), #aae0e7));
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    
+}
+.custom-header-name{
+    font-family: 'Noto Serif', serif;
+    color: #7d7d7dc7;
+    font-weight: 400;
+    font-size: 40px;
+}
+.custom-model{
+    padding: 10px;
+    background-color: white;
+    height: 470px;
+    width: 320px;
+    border-radius: 50px;
+ 
+}
+.custom-input{
+    background-color: white;
+    border-radius: 50px;
+    width: 220px;
+    padding: 10px;
+    margin-right: 3px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: #505353;
+}
+.custom-btn{
+    background-color: white;
+    width: 98px;
+    padding: 10px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: #505353;
+    border-radius: 50px;
+}
+.costom-name{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    color: #322d2dc7;
+    font-weight: bold;
+    margin-top: 15px;
+  
+}
+.custom-tem{
+     padding-bottom:20px;
+    font-size:40px;
+    margin-left: 10px;
+    font-family: 'Lato', sans-serif;
+    color: #7d7d7dc7;
+   
+}
+.custom-des{
+    font-size:25px;
+    margin-left: 10px;
+    font-family: 'Lato', sans-serif;
+    color: #444242c7;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.custom-weather-icon{
+    display: flex;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+    border-radius: 100%;
+    font-size: 100px;
+    color: #7d7d7dc7;
+    -webkit-animation: action 1s infinite  alternate;
+    animation: action 1s infinite  alternate;
+   
+  }
+  .custom-Tem-m{
+    font-size:16px;
+    margin-top: 14px;
+    margin-left: 10px;
+    font-family: 'Lato', sans-serif;
+    color: #7d7d7dc7;
+    
+  }
+  .custom-time-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:30px;
+    margin-top:40px;
+    font-family: 'Lato', sans-serif;
+    color: #373737c7;
+    font-weight:700;    
+
+  }
+  .custom-error-p{
+   padding-top: 50px;
+   margin-right: 20px;
+   margin-left: 20px;
+   color: #373737c7;
+  }
+  .custom-error{
+    font-size: 15px;
+ 
+   }
+  .custom-icon{
+   font-size: 120px !important;
+   margin-left: 70px;
+   margin-top: 50px;
+   -webkit-animation: action 1s infinite  alternate;
+   animation: action 1s infinite  alternate;
+
+
+  }
+  .custom-model-forecastdata {
+    background-color: white;
+    height: 470px;
+    width: 320px;
+    border-radius: 50px;
+    margin-top: 110px;
+    margin-left: 20px;
+    padding-right: 10px;
+   
+}
+  .forecast-container {
+    display: block;
+  }
+  
+  .forecast-item-horizontal {
+    text-align: center;
+  
+  }
+ 
+  .custom-forecast-icon{
+   margin-right: 15px;
+   font-size: 35px;
+   font-family: 'Lato', sans-serif;
+   color: #434040c7;
+    
+ 
+  }
+  .custom-forecast-temp{
+    margin-right: 20px;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    color: #434040c7;
+    font-weight: 800;
+   
+   
+  }
+  .custom-forecast-dep{
+ 
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    color: #434040c7;
+ 
+    font-weight: 800;
+   
+
+  }
+  .forecast-date{
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    color: #434040c7;
+    font-weight: bold;
+    
+     
+  }
+  p {
+    margin-top: 25px;
+    margin-bottom: -14px;
+    font-family: 'Lato', sans-serif;
+    color: #434040c7;
+}
+.header-title{
+    text-align: center;
+    margin-top: 122px;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    color: #322d2dc7;
+    font-weight: bold;
+    padding-top: 35px;
+}
+ 
+ 
+  .forecast-item-horizontal {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+ 
+  .forecast-date {
+    width: 33%;
+  }
+  
+ 
+  .custom-forecast {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .custom-forecast-icon {
+   width: 33%;
+ 
+
+  }
+  
+ 
+  .custom-forecast-temp,
+  .custom-forecast-dep {
+    margin-right: 20px;
+  }
+
+ 
+@-webkit-keyframes action {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+@keyframes action {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
